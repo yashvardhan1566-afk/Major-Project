@@ -43,7 +43,7 @@ if generate:
 
         try:
             response = requests.post(
-                "http://127.0.0.1:8000/generate-plan",
+                "https://major-project-nhbb.onrender.com/generate-plan",
                 json=payload
             )
 
